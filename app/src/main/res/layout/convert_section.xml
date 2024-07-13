@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:text="@string/temperature"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_margin="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_input"
+        android:layout_margin="25dp"
+        android:padding="13dp"
+        android:hint="@string/enter_amount"
+        android:gravity="center"
+        android:backgroundTint="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:maxLength="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Enter Amount"/>
+    <TextView
+    android:text="@string/celsius"
+    android:textSize="22sp"
+    android:textColor="@color/black"
+    android:layout_margin="25dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <TextView
+        android:text="@string/into"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="@string/fahrenheit"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:layout_margin="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</merge>

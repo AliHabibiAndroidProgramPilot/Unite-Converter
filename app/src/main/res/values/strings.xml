@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Unite Converter</string>
+    <string name="unit_converter">Unit Converter</string>
+    <string name="like_to_convert">what would you like to convert today?</string>
+    <string name="temperature">Temperature</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="celsius">Celsius</string>
+    <string name="into">into</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="btn_text_convert">convert</string>
+</resources>
